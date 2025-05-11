@@ -23,16 +23,6 @@ This project implements a Neural Machine Translation (NMT) model using the Trans
 -   **Attention Visualization**: Capability to extract and potentially visualize attention scores during translation (greedy decoding path).
 -   **Flash Attention Support**: Automatically utilizes `torch.nn.functional.scaled_dot_product_attention` (Flash Attention) if available in the PyTorch environment for optimized attention computation.
 
-## Technical Stack
-
--   Python 3.x
--   PyTorch (version 2.0.1 or compatible)
--   Hugging Face `datasets` library
--   Hugging Face `tokenizers` library
--   `torchmetrics` for evaluation
--   `wandb` for experiment tracking
--   `tqdm` for progress bars
-
 
 
 
